@@ -15,12 +15,14 @@
     <script>
         //Get the button
         var mybutton = document.getElementById("myBtn");
+
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 mybutton.style.display = "block";
+
             } else {
                 mybutton.style.display = "none";
             }
@@ -31,39 +33,31 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
-    <header>
-        <div class="k6">
-            <a href="#"><img src="img/logo.png" alt="edutech"></a>
+    <header id="header">
+        <div class="logo">
+            <div class="k1">
+                <a href="#"><img src="img/logo.png" alt="edutech"></a>
+            </div>
         </div>
-        <div class="k3">
-            <h1>KOPERASI EDUTECH</h1>
-        </div>
-        <div class="k2" id="menu">
-            <ul>
-                <li><a href="#">Beranda</a></li>
-                <li><a href="profil.html">Profil</a></li>
-                <li><a href="pendaftaran.html">Pendaftaran</a></li>
-                <li><a href="galeri.html">Galeri</a></li>
-                <li><a href="kontak.html">Kontak Kami</a></li>
-            </ul>
+        <div class="menu">
+            <div class="k1" id="menu">
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="profil.html">Profil</a></li>
+                    <li><a href="pendaftaran.html">Pendaftaran</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="kontak.html">Kontak Kami</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <footer>
-        <div class="k3">
-            <h2>Alamat</h2>
-            <p>Green Lake City Ruko Crown Block C no 32, Cipondoh, Tangerang, Indonesia</p>
+        <div class="k1">
+            <p> Membangun Ekonomi Qurani yang besar, kuat, professional dan terpercaya sebagai salah satu penopang pilar
+                ibadah, syariah dan dakwah <span>menuju kebahagiaan dunia dan keselamatan akhirat.</span></p>
         </div>
-        <div class="k3">
-            <h2>Kontak</h2>
-            <p>Email: admin.edu-tech@edutama.id</p>
-            <p>Ulwan : 0857-1857-4908</p>
-        </div>
-        <div class="k3">
-            <ul>
-                <li><a href=""><img src="" alt="facebook"></a></li>
-                <li><a href=""><img src="" alt="twitter"></a></li>
-                <li><a href=""><img src="" alt="instagram"></a></li>
-            </ul>
+        <div class="k1">
+            <h5>Copyright &copy; 2019 Koperasi Syariah 212</h5>
         </div>
     </footer>
 </body>
