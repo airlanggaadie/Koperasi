@@ -3,9 +3,6 @@
     padding: 0pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-body{
-
-}
 #myBtn{
     display: none;
     position: fixed;
@@ -139,8 +136,114 @@ header li a:hover{
 
 /* monggo lanjutken jancuk! */
 
+#galeri{
+	height: 400px;
+	background-color: white;
+}
 #galeri h1{
-	
+	text-align: center;
+	margin: 20px auto;
+	text-shadow: 1px 1px 1px gray;
+	background: #c49102;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#galeri li{
+	border-radius: 50%;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	list-style: none;
+}
+#foto, #video{
+	height: 100%;
+	position: relative;
+	margin: 10px auto;
+}
+#foto h3, #video h3{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#foto .row{
+	position: relative;
+	margin-left: 20px;
+}
+#foto span,
+#foto .thumbnail{
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;	
+	border: 1px solid gray;
+}
+#foto span{
+	display: block;
+	position: absolute;
+	top: 0;
+	background-color: rgba(200,200,200,.6);
+	text-align: center;
+	line-height: 110px;
+	opacity: 0;
+	text-shadow: 1px 1px 1px #ddd;
+	transition: .3s;
+	transform: scale(0) rotate(0);
+}
+#foto a:hover span{
+	opacity: 1;
+	transform: scale(1) rotate(360deg);
+}
+#foto .overlay{
+	width: 0pt;
+	height: 0pt;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0);
+	z-index: 99999;
+	transition: .5s;
+	text-align: center;
+	padding: 100px;
+}
+#foto .overlay img{
+	max-height: 100%;
+	box-shadow: 2px 2px 6px rgba(0,0,0,.8);
+}
+#foto .overlay:target{
+	width: auto;
+	height: auto;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.8);
+}
+#foto .overlay:target img{
+	animation: zoomfade 1s;
+}
+#foto .overlay .close{
+	position: absolute;
+	top: 0;
+	right: 10%;
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	display: none;
+}
+#foto .overlay:target .close{
+	display: block;
+}
+@keyframes zoomfade{
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+#video iframe{
+	width: 40%;
+	margin-left: 10px;
 }
 
 /* -------------------------------------------- */
@@ -149,7 +252,7 @@ footer{
 	overflow: hidden;
     width: 100%;
     height: 100px;
-    background: rgb(11,72,146);
+	background: rgb(11,72,146);
 }
 footer .k1:first-child{
 	background: #c49102;
