@@ -371,7 +371,15 @@ header li a:hover{
   color: grey;
   text-align: center;
   margin-bottom: 50px;
+  background-color: gold;
+  margin-left: 100px;
+  margin-right: 100px;
 }
+ .k1 h1{
+   background-color: gold;
+   margin-left: 100px;
+   margin-right: 100px;
+ }
 
 .berita .k4 img{
  width: 90%;
