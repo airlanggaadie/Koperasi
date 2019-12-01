@@ -1,7 +1,10 @@
 *{
     margin: 0pt;
     padding: 0pt;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+
 }
 #myBtn{
     display: none;
@@ -135,6 +138,10 @@ header li a:hover{
 /* -------------------------------------------- */
 
 /* monggo lanjutken jancuk! */
+
+#galeri h1{
+	
+}
 
 /* -------------------------------------------- */
 /* awal footer */
