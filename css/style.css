@@ -360,6 +360,20 @@ header li a:hover{
 	100% {
 		left: 0; opacity: 0;
 	}
+}
+
+.berita .header-berita{
+  text-align: center;
+}
+
+.berita .header-berita p{
+  color: grey;
+}
+
+.berita .k4 img{
+  width: 20%;
+
+}
 /* -------------------------------------------- */
 /* awal footer */
 
