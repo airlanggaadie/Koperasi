@@ -374,6 +374,7 @@ header li a:hover{
 
 .berita .k4 img{
  width: 90%;
+ margin-left: 10px;
 }
 /* -------------------------------------------- */
 /* awal footer */
@@ -382,8 +383,6 @@ footer{
     width: 100%;
     height: 200px;
     background: #c49102;
-    padding-left: 50px;
-    padding-right: 50px;
     overflow: hidden;
 }
 
