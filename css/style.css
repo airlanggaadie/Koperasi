@@ -31,55 +31,55 @@
     float: left;
 }
 .k2{ /* 0.5*/
-    width: calc(100%/2);   
+    width: calc(100%/2);
     height: 100%;
     /* background: red; */
     float: left;
 }
 .k3{ /* 0.34*/
-    width: calc(100%/3);   
+    width: calc(100%/3);
     height: 100%;
     /* background: red; */
     float: left;
 }
 .k4{ /* 0.25 */
-    width: calc(100%/4);   
+    width: calc(100%/4);
     height: 100%;
     /* background: red; */
     float: left;
 }
 .k5{ /* 0.2 */
-    width: calc(100%/5);   
+    width: calc(100%/5);
     height: 100%;
     /* background: red; */
     float: left;
 }
 .k6{ /* 0.167 */
-    width: calc(100%/6);   
+    width: calc(100%/6);
     height: 100%;
     /* background: red; */
     float: left;
 }
 .k8{ /* 0.125 */
-    width: calc(100%/8);   
+    width: calc(100%/8);
     height: 100%;
     /* background: red; */
     float: left;
 }
 .k9{ /* 0.111 */
-    width: calc(100%/9);   
+    width: calc(100%/9);
     height: 100%;
     /* background: red; */
     float: left;
 }
 .k10{ /* 0.1 */
-    width: calc(100%/10);   
+    width: calc(100%/10);
     height: 100%;
     /* background: red; */
     float: left;
 }
 .k12{ /*0.083 */
-    width: calc(100%/12);   
+    width: calc(100%/12);
     height: 100%;
     /* background: red; */
     float: left;
@@ -123,8 +123,23 @@ header li a:hover{
 /* akhir header */
 /* -------------------------------------------- */
 
-/* monggo lanjutken jancuk! */
+#peta{
+  float: right;
+  width: 600px;
+  height: 330px;
+  margin-right: 75px;
+}
 
+#gambarks{
+  width: 600px;
+  height: 330px;
+  margin-left: 50px;
+}
+
+#gambarks img{
+  width: 600px;
+  height: 330px;
+}
 /* -------------------------------------------- */
 /* awal footer */
 footer{
