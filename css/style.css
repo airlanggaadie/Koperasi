@@ -39,7 +39,7 @@
 .k3{ /* 0.34*/
     width: calc(100%/3);
     height: 100%;
-    /* background: red; */
+    background: #fcf205; 
     float: left;
 }
 .k4{ /* 0.25 */
@@ -380,3 +380,28 @@ footer ul{
     list-style: none;
 }
 /* akhir footer */
+
+
+/* Awal Profile */
+
+#profile {
+	background: red;
+	width: 500px;
+	height: 500px;
+}
+
+#profile img {
+	width: 200px;
+	height: 200px;
+	margin-left: 200px;
+	float: right;
+}
+
+.subprofile {
+	height: 500px;
+	width: 500px;
+	background: red;
+}
+
+
+/* Akhir Profile */
