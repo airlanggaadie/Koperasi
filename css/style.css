@@ -384,23 +384,11 @@ footer ul{
 
 /* Awal Profile */
 
-#profile {
-	background: red;
-	width: 500px;
-	height: 500px;
-}
-
 #profile img {
 	width: 200px;
 	height: 200px;
 	margin-left: 200px;
 	float: right;
-}
-
-.subprofile {
-	height: 500px;
-	width: 500px;
-	background: red;
 }
 
 
