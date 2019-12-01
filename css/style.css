@@ -376,6 +376,19 @@ header li a:hover{
  width: 90%;
  margin-left: 10px;
 }
+
+.berita .k4 img:hover{
+  width: 100%;
+}
+
+.berita .k4 a{
+  text-decoration: none;
+  color: black;
+}
+
+.berita .k4 a:hover{
+  color: blue;
+}
 /* -------------------------------------------- */
 /* awal footer */
 
