@@ -632,7 +632,21 @@ header li a:hover{
 	margin-bottom: 20px;
 	line-height: 26px;
 }
-
+#formulir{
+	height: 250px;
+	width: 100%;
+	background: rgba(0,0,0,.2);
+}
+#formulir form{
+	text-align: center;
+}
+#formulir input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 30px;
+	width: 30%;
+	bord
+}
 /* awal footer */
 
 footer{
