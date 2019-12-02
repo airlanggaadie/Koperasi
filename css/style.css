@@ -28,7 +28,7 @@
     width: 100%;
     height: 100%;
     /* background: green; */
-    float: left;\
+    float: left;
 }
 .k2{ /* 0.5*/
     width: calc(100%/2);
@@ -182,7 +182,7 @@ header li a:hover{
 	-webkit-animation-play-state:paused;
 	-moz-animation-play-state:paused;
 	-o-animation-play-state:paused;
-	animation-play-state:paused; }
+	animation-play-state:paused;
 }
 
 .isi-slider img {
