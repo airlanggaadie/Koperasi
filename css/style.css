@@ -400,6 +400,15 @@ header li a:hover{
 .berita .k4 a:hover{
   color: blue;
 }
+
+.k3 p{
+  color: grey;
+}
+
+.k3 ul{
+  margin-left: 25%;
+  margin-top: 50px;
+}
 /* -------------------------------------------- */
 /* awal footer */
 
