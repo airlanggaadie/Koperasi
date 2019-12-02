@@ -539,6 +539,58 @@ header li a:hover{
 }
 /* akhir galeri */
 
+/* awal kontak */
+.Kantor-pusat{
+  margin-top: 20px;
+  height: 40px;
+  background-color: green;
+}
+
+.Kantor-pusat #KP {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  background-color: yellow;
+  width: 150px;
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
+}
+
+.bungkus{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.k3 iframe{
+  /* float: right; */
+  width: 100%;
+  height: 330px;
+  /* margin-right: 75px; */
+}
+/* akhir kontak */
+
+/* #gambarks{
+  width: 600px;
+  height: 330px;
+  margin-left: 50px;
+} */
+
+#foto {
+  width: 100%;
+  height: 330px;
+}
+
+#amanah{
+  padding-top: 11px;
+  padding-bottom: 11px;
+  background-color: yellow;
+  /* margin-left: 25px;
+  padding-left: 25px; */
+}
+
+#amanah b{
+  margin-left: 25px;
+}
 /* -------------------------------------------- */
 
 /* awal footer */
